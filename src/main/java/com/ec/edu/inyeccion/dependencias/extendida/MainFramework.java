@@ -43,6 +43,9 @@ public class MainFramework {
 		Matricula matricula =  new Matricula(estudiante, new Direccion());
 		//
 		
+		
+		
+		
 		matricula.setAnio(2015);
 		matricula.setSemestre("Sexto");
 		
