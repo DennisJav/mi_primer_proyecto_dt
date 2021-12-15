@@ -24,4 +24,17 @@
 		<constructor-arg value = "25"></constructor-arg>
 	</bean>
 	
+	<bean id="pacientet" class="jorge.sanchez.tarea.Paciente">
+		<constructor-arg value="Jorge"></constructor-arg>
+		<constructor-arg value="Sanchez"></constructor-arg>
+		<constructor-arg value="23"></constructor-arg>
+	</bean>
+	
+	<bean id="profesort" class="jorge.sanchez.tarea.Profesor">
+		<constructor-arg value="Francisco"></constructor-arg>
+		<constructor-arg value="Lima"></constructor-arg>
+		<constructor-arg value="Innovacion"></constructor-arg>
+		<constructor-arg value="UCE"></constructor-arg>
+	</bean>
+	
 </beans>
